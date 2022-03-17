@@ -6,9 +6,9 @@ function algoritmA () {
 
     for (let i = 0; i < guess.length; i++) {
         if (guess[i] == answer[i]) {
-            console.log("Letter" + guess[i] + " is: Correct");
+            console.log("Letter " + guess[i] + " is: Correct");
         } else {
-            console.log("Letter" + guess[i] + " is: Incorrect");
+            console.log("Letter " + guess[i] + " is: Incorrect");
         }
     };
 };
