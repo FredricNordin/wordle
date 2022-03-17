@@ -1,0 +1,12 @@
+{
+  "name": "wordle",
+  "version": "1.0.0",
+  "description": "worlde game assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fredric N",
+  "license": "ISC"
+}
