@@ -1,11 +1,12 @@
 {
   "name": "wordle",
   "version": "1.0.0",
-  "description": "worlde game assignment",
-  "main": "index.js",
+  "description": "wordle game assignment",
+  "main": "./src/index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "author": "Fredric N",
   "license": "ISC"
