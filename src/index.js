@@ -1,8 +1,6 @@
-algorithmA();
-
-function algorithmA() {
-  const guess = "hallå".toUpperCase();
-  const answer = "cykla".toUpperCase();
+export default function algorithmA(guessInput, answerInput) {
+  const guess = guessInput.toUpperCase();
+  const answer = answerInput.toUpperCase();
   const output = [];
 
   // For reference to whether the correct letters are in place.
@@ -29,4 +27,5 @@ function algorithmA() {
   }
   // Output the results.
   console.log(output);
+  return output;
 }
