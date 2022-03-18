@@ -37,11 +37,11 @@ describe("Tests for the wordle algorithm A assignment", () => {
     expect(output[1].result).toEqual("correct");
   });
 
-  test("bA + Ab should be correct", () => {
-    const output = algorithmA("ab", "AB");
+  test("bA + Ab should be misplaced/misplaced", () => {
+    const output = algorithmA("bA", "Ab");
 
-    expect(output[0].result).toEqual("correct");
-    expect(output[1].result).toEqual("correct");
+    expect(output[0].result).toEqual("misplaced");
+    expect(output[1].result).toEqual("misplaced");
   });
 
   test("check if all is correct", () => {
